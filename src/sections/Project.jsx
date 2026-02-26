@@ -2,7 +2,7 @@ import portfolioImg from "../assets/png/portfolioImg.png";
 import chatbot from '../assets/png/chatbotImg.jpeg';
 import myntra from '../assets/png/myntraImg.png';
 import accidentDetection from '../assets/png/AccidentDetection.jpg';
-import motrax from '../assets/png/motrex.jpg';
+import passwordgenrator from '../assets/png/motrex.jpg';
 import futureguide from '../assets/png/futureguide.jpg';
 import { useState } from "react";
 
@@ -93,10 +93,10 @@ const Project = () => {
     },
     {
       id: 6,
-      name: "Motrax",
-      image: motrax,
-      desc: "A money-tracking and financial guidance system for small businesses. It helps users manage finances, suggests suitable business ideas, and estimates how much loan they can qualify for from banks.",
-      link: "https://github.com/krrishnagupta/MOTRAX",
+      name: "Password generator",
+      image: passwordgenrator,
+      desc: "A secure, cross-platform mobile utility built with React Native that generates customizable, high-entropy passwords with a clean, intuitive UI.",
+      link: "https://github.com/krrishnagupta/Password-generator-App",
     },
   ];
 
