@@ -2,7 +2,7 @@ import portfolioImg from "../assets/png/portfolioImg.png";
 import chatbot from '../assets/png/chatbotImg.jpeg';
 import myntra from '../assets/png/myntraImg.png';
 import accidentDetection from '../assets/png/AccidentDetection.jpg';
-import passwordgenrator from '../assets/png/motrex.jpg';
+import passwordgenrator from '../assets/png/passwordsecurity.jpg';
 import futureguide from '../assets/png/futureguide.jpg';
 import { useState } from "react";
 
@@ -69,11 +69,12 @@ const Project = () => {
     },
     {
       id: 3,
-      name: "Psychiatrist Bot",
-      image: chatbot,
-      desc: "An AI-powered mental-health chatbot that simulates basic psychiatric conversations. It uses machine-learning models and a clean interface to provide supportive, interactive guidance.",
-      link: "https://github.com/krrishnagupta/major-project",
+      name: "Password generator",
+      image: passwordgenrator,
+      desc: "A secure, cross-platform mobile utility built with React Native that generates customizable, high-entropy passwords with a clean, intuitive UI.",
+      link: "https://github.com/krrishnagupta/Password-generator-App",
     },
+    
   ];
 
   const academicProjects = [
@@ -93,10 +94,10 @@ const Project = () => {
     },
     {
       id: 6,
-      name: "Password generator",
-      image: passwordgenrator,
-      desc: "A secure, cross-platform mobile utility built with React Native that generates customizable, high-entropy passwords with a clean, intuitive UI.",
-      link: "https://github.com/krrishnagupta/Password-generator-App",
+      name: "Psychiatrist Bot",
+      image: chatbot,
+      desc: "An AI-powered mental-health chatbot that simulates basic psychiatric conversations. It uses machine-learning models and a clean interface to provide supportive, interactive guidance.",
+      link: "https://github.com/krrishnagupta/major-project",
     },
   ];
 
