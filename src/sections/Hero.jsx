@@ -6,7 +6,7 @@ import { useState, useEffect } from "react";
 const Hero = () => {
 
   //{ Type writer function }
-  const words = ["Front-End Developer", "Software Developer"];
+  const words = ["Front-End Developer", "Software Developer", "AI&ML Developer"];
   const [text, setText] = useState("");
   const [index, setIndex] = useState(0);      // current word index
   const [subIndex, setSubIndex] = useState(0); // current letter index
