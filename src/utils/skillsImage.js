@@ -6,7 +6,7 @@ import redux from '../assets/svg/redux.svg';
 import bootstrap from '../assets/svg/bootstrap.svg';
 import tailwind from '../assets/svg/tailwind.svg';
 import vitejs from '../assets/svg/vitejs.svg';
-import cplusplus from '../assets/svg/cplusplus.svg';
+import Java from '../assets/svg/Java.svg';
 import python from '../assets/svg/python.svg';
 import git from '../assets/svg/git.svg';
 import canva from '../assets/svg/canva.svg';
@@ -31,8 +31,8 @@ export const skillsImage = (skill) => {
       return tailwind;
     case 'vite':
       return vitejs;
-    case 'c++':
-      return cplusplus;
+    case 'Java':
+      return Java;
     case 'python':
       return python;
     case 'git':
