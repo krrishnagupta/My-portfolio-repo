@@ -7,7 +7,7 @@ export const skillsData = [
   'Bootstrap',
   'Tailwind',
   'Vite',
-  'C++',
+  'Java',
   'Python',
   'Git',
 
